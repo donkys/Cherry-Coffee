@@ -1,0 +1,7 @@
+SELECT Member_Name, M_EmpName, T_DATE, T_TIME, M_EmpID, Member_ID, T_Class, T_Weight, T_Grade, T_GWeight, T_PWeight, T_GoodMoney, T_PoorMoney, T_CommonFee, T_MemberSaving, T_Net, Grade_Price 
+FROM t_buy, m_employee, m_member WHERE T_DATE='$date' AND T_TIME = '$time';
+
+http://localhost:8255/Coffee/report.php?date=2023-02-04&time=07:52:00
+
+SELECT * FROM t_buy INNER JOIN m_employee ON t_buy.M_EmpID = m_employee.M_EmpID INNER JOIN m_member ON t_buy.M_EmpID = m_member.Member_ID WHERE T_DATE='$date' AND T_TIME = '$time';
+SELECT * FROM t_buy INNER JOIN m_employee ON t_buy.M_EmpID = m_employee.M_EmpID INNER JOIN m_member ON t_buy.M_EmpID = m_member.Member_ID WHERE T_DATE='2023-02-04' AND T_TIME = '07:52:00';

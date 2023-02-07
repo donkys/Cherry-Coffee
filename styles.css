@@ -1,0 +1,27 @@
+.sheet {
+    border: 1px solid black;
+    padding: 30px 30px;
+    margin: 30px auto 50px;
+    width: 210mm;
+    height: auto;
+}
+
+.date {
+    padding-left: 60%;
+}
+
+.lb {
+    position: relative;
+    right: 6%;
+    display: block;
+    text-align: center;
+    background-color: #20262E;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-family: 'IBM Plex Sans Thai', 'Sarabun';
+    color: #E9E8E8;
+    border-radius: 0 30px 30px 0;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
